@@ -7,7 +7,7 @@ o controle desta tarefa sera atualizado diariamente do github
 
 ## incones
 
-:packege: Novas funcionalidades
-:up: Atualizações
+:heartbeat: Novas funcionalidades
+:heartbeat: Atualizações
 :bestle: correção de bugs
-:checker_flags: releasse
+:warning: releasse
