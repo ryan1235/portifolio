@@ -26,8 +26,18 @@ header{
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
+    animation: zoom 10s;
 }
 
+@keyframes zoom {
+        0%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
 .banner{
     position: absolute;
     top: 30%;
@@ -41,8 +51,49 @@ header{
     font-weight: 200;
     text-shadow: 3rem .3rem ,2px rgba( 0, 0, 0, .4);
     line-height: 2.5rem;
+    margin-bottom: 2rem;
+    animation: banner 3s;
 }
 
-.banner p{
-    
+.banner p {
+    font-family: "Josefin Slab', serif";
+    color: seashell;
+    font-size: 2rem;
+    text-shadow: 3rem .3rem ,2px rgba( 0, 0, 0, .4);
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    animation: banner 4s;
+}
+
+.banner button{
+    font-family: "Mulish', sans-serif";
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: rgb(206, 204, 204);
+    background: #7f00ff;
+    background: -webkit-linear-gradient(to right, #7f00ff, #e100ff); 
+    background: linear-gradient(to right, #7f00ff, #e100ff); 
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    animation: banner 5s;
+}
+
+.banner button:hover{
+    opacity: 0.9;
+    color: black;
+}
+
+@keyframes banner{
+    0%{
+        transform: translateY(16rem) rotateY(-50deg);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0)rotateY(0);
+        opacity: 1;
+    }
 }
