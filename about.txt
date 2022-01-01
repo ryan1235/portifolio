@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Kavoon
+- Font Author: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Kavoon'
+- Font Source: http://fonts.gstatic.com/s/kavoon/v11/pxiFyp4_scRYhlU4NLr6f1pdEQ.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
