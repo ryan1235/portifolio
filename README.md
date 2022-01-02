@@ -10,4 +10,4 @@ o controle desta tarefa sera atualizado diariamente do github
 :heartbeat: Novas funcionalidades
 :warning: Atualizações
 :bangbang: correção de bugs
-:warning: releasse
+:bellhop_bell: releasse
